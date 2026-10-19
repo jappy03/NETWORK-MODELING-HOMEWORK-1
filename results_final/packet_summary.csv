@@ -1,0 +1,11 @@
+Metric,Value
+Packet count,39083.0
+Packet inter-arrival count,39082.0
+Window duration [s],239.97414700000002
+Mean packet inter-arrival [ms],6.139882216877335
+Packet inter-arrival std [ms],9.788222282925572
+Packet inter-arrival CV,1.5942035917268356
+Mean packet workload [bits],6910.024511936136
+Packet workload std [bits],3458.854188623107
+Total IP bits,270064488.0
+IP rate [Mbit/s],1.1253899279408628

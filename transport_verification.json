@@ -1,0 +1,19 @@
+{
+  "source": "Final call WebRTC dump, selected candidate pair and candidate updates",
+  "peer_connection": "28-4",
+  "selected_candidate_pair_id": "CPAgPeH8TX_GcHYl5VC",
+  "selected_pair_state": "succeeded",
+  "nominated": true,
+  "captured_local_endpoint": {
+    "address": "192.168.1.7",
+    "port": 61626
+  },
+  "selected_remote_endpoint": {
+    "address": "74.125.250.248",
+    "port": 3478
+  },
+  "transport": "UDP",
+  "scope": "Outgoing selected transport, including associated control traffic",
+  "display_filter": "ip.src == 192.168.1.7 && ip.dst == 74.125.250.248 && udp.srcport == 61626 && udp.dstport == 3478 && frame.time_relative >= 60 && frame.time_relative <= 299.974147",
+  "selected_packets": 39083
+}

@@ -1,0 +1,9 @@
+Variable,Model,CDF distance D
+A_i,Exponential,0.1084984497269535
+A_i,Gamma,0.0631165656093095
+B_i,Geometric,0.2376595199727668
+B_i,Poisson + 1,0.2806713586385488
+B_i,Bernoulli-Poisson,0.021674061315640758
+"W_i,k",Normal,0.35465140474740303
+"W_i,k",Gamma,0.41002835477228894
+"W_i,k",Gaussian mixture (positive),0.07325187352029605

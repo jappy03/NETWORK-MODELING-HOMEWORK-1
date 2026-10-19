@@ -1,0 +1,1 @@
+ip.src == 192.168.1.7 && ip.dst == 74.125.250.248 && udp.srcport == 61626 && udp.dstport == 3478 && frame.time_relative >= 60 && frame.time_relative <= 299.974147

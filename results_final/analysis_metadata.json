@@ -1,0 +1,29 @@
+{
+  "input_csv": "meet_outgoing.csv",
+  "input_sha256": "a1ea8cff556a854b9bb42bf8982ebeb7935ca854db36ee44d412d27bb912d2ab",
+  "capture_window_s": [
+    60.0,
+    299.974147
+  ],
+  "analysis_duration_s": 239.97414700000002,
+  "batch_threshold_ms": 0.5,
+  "batch_rule": "Consecutive packet gaps <= threshold belong to the same batch.",
+  "workload": "Individual IP Total Length multiplied by 8, in bits.",
+  "seed": 42,
+  "models": {
+    "A_i": "Gamma(lambda_A, k_A), rate and shape",
+    "B_i": "1 + Z_i * (3 + X_i), independent Bern(p_B) and Poisson(lambda_B)",
+    "W_i,k": "Two-normal mixture conditioned globally on W > 0"
+  },
+  "assumptions": [
+    "Independent batch intervals, batch sizes and individual workloads.",
+    "The same measured trace is used for fitting and descriptive comparisons.",
+    "Synthetic workloads are a continuous approximation in bits."
+  ],
+  "software": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  }
+}
